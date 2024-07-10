@@ -1,0 +1,27 @@
+image:
+  repository: golift/unpackerr
+  pullPolicy: IfNotPresent
+  tag: latest
+
+resources:
+  limits:
+    cpu: 4000m
+    memory: 8Gi
+
+unpackarrConfig:
+  additionalEnvs: []
+
+unpackarrNetwork:
+  webPort: 30046
+  hostNetwork: false
+
+unpackarrRunAs:
+  user: 568
+  group: 568
+
+unpackarrStorage:
+  config:
+    type: ixVolume
+    ixVolumeConfig:
+      datasetName: config
+  additionalStorages: []

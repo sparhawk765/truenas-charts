@@ -1,0 +1,19 @@
+apiVersion: v2
+name: unpackarr
+description: Program to search for and unpack archives from sonarr and radarr.
+annotations:
+  title: Unpackarr
+type: application
+version: 0.0.1
+appVersion: 1.2.0
+kubeVersion: '>1.16.0-0'
+maintainers:
+  - name: beyond
+    url: https://www.beyond.nu
+    email: sparhawk765@gmail.com
+home: https://unpackarr.com
+sources:
+  - https://github.com/sparhawk765/truenas-charts/community/unpackarr
+keywords:
+  - media
+  - archiver
