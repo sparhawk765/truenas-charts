@@ -5,7 +5,7 @@ annotations:
   title: Unpackarr
 type: application
 version: 0.0.1
-appVersion: 1.2.0
+appVersion: 0.14.0
 kubeVersion: '>1.16.0-0'
 maintainers:
   - name: beyond
